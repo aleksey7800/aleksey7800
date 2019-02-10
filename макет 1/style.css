@@ -1,0 +1,458 @@
+body {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+header {
+
+	height: 323px;
+	background-color: rgb(68, 81, 98);
+	padding: 0 50px 0 50px;
+}
+
+h1 {
+display: inline-block;
+width: 400px;
+margin: 0;
+padding-top: 39px;
+font-family: Arial;
+color:  #ffffff;
+font-size: 60px;
+font-weight: 400;
+text-align: left;
+text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+margin: 0;
+padding: 41px 0 10px 53px;
+color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+line-height: 36px;
+}
+
+h4 {
+margin: 0;
+padding: 46px 0 6px 0;
+color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+text-align: center;
+}
+
+h5 {
+color: #445161;
+font-family: "Arial MT";
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+margin: 0;
+padding: 0;
+padding-left: 219px;
+}
+
+p {
+color: #333333;
+font-family: "Arial MT";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+
+header ul {
+	padding: 0;
+	margin-top: 30px;
+}
+
+
+
+header li {
+list-style: none;
+background: url(img/check_icon.png) no-repeat 0 4px; /* Параметры фона */
+padding-left: 45px;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+color: #ffffff;
+font-family: "Arial MT";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+}
+
+header img {
+	margin-top: -240px;
+	display: inline-block;
+	float: right;
+
+}
+
+main p {
+	width: 52%;
+	padding: 0 0 18px 51px;
+}
+
+main {
+	
+	padding-bottom: 50px;
+}
+
+main img {
+
+	margin-top: -240px;
+	display: inline-block;
+	float: right;
+	padding-right: 50px;
+}
+
+main ul {
+padding-top: 10px;
+
+}
+
+main li {
+list-style: none;
+color: #333333;
+font-family: "Arial MT";
+font-size: 16px;
+font-weight: 400;
+line-height: 37px;
+
+}
+
+article {
+	background-color: #f5f5f5;
+	padding-bottom: 50px;
+}
+
+article img {
+	margin: 24px;
+	padding: 6px;
+	background-color: #445161;
+}
+
+article p {
+	color: #333333;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 14px 0;
+}
+
+.skrinshot section {
+	width: 43%;
+    display: inline-block;
+    padding: 3px 0px 3px 45px;
+}
+
+.skrinshot h4 {
+    padding: 37px 0 13px 0;
+ 
+ }
+
+.skrinshot section img{
+	float: left;
+	margin-right: 20px;
+}
+
+.Reviews div{
+
+	width: 43%;
+	display: inline-block;
+	padding: 15px 10px 15px 10px;
+}
+
+.Reviews h4 {
+    padding: 49px 0 13px 0;
+ 
+ }
+
+.Reviews div img{
+	float: left;
+	margin-top: 15px;
+	margin-right: 39px;
+
+}
+
+.Reviews div p {
+	position: relative;
+    background-color: #ececec;
+    margin-left: 120px;
+    padding: 10px 0px 0 14px;
+
+   }
+
+.Reviews div p::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+     left: -36px;
+    top: 30px;
+    border: 16px solid transparent;
+    border-right: 20px solid #ececec;
+}
+ .Reviews div span {
+	color: #989898;
+	font-family: "Arial MT";
+	font-size: 14px;
+
+   }
+
+   .Buy {
+   	padding-left: 125px;
+   }
+
+	.Buy h4 {
+    margin: 0;
+    padding: 12px 0 10px 0;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    text-align: center;
+	}
+
+   .Buy section {
+	margin: 0 26px 40px 26px;
+    display: inline-block;
+    width: 25%;
+    background-color: #445162;
+    border-radius: 10px;
+    padding-bottom: 17px;
+   }
+
+    .Buy section h5 {
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+   }
+
+.Buy section span {
+	display: inline-block;
+   	width: 96%;
+	background-color: white;
+	text-align: center;
+	color: #445162;
+	font-family: "Arial MT";
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 18px 0;
+	margin: 0 2%;
+	}
+
+.Buy section li {
+
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	}
+
+ol {
+
+	padding-left: 29px;
+	list-style-position:inside;
+}
+
+.button {
+		margin: 0 auto;
+	width: 260px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.button p {
+
+	color: #445161;
+	font-family: "Arial - Bold MT";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 2;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+details {
+
+	position: relative;
+
+}
+
+summary {
+
+	display: inline-block;
+	padding: 0 0 0 90px;
+	position: relative;
+	color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 14px 0;
+
+}
+	
+
+details[open] {
+
+	padding: 0 0 0 0;
+	margin: 0 0;
+	color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+
+}
+
+
+summary::-webkit-details-marker {
+
+	display: none;
+
+}
+
+	details:before {
+	position: absolute;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    background-image: url(img/Layer_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 52px;
+    top: 23px;
+}	
+
+	details[open]:before {
+	position: absolute;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    background-image: url(img/Layer_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 52px;
+    top: 23px;
+	}
+
+.details-block {
+	display: inline-block;
+	width: 46%;
+	vertical-align: top;
+}
+
+footer {
+	background-color: #445162;
+}
+
+footer h5 {
+font-size: 33px;
+text-align: center;
+color:  #ffffff;
+padding: 60px 0 18px 0;
+
+}
+
+form {
+	display: inline-block;
+	width: 40%;
+	margin-left: 19%;
+	padding-bottom: 30px;
+}
+
+.Contacts {
+	float: right;
+	display: inline-block;
+	margin: 0 80px;
+}
+
+#soc-seti{
+margin: 0 80px;
+}
+
+address {
+font-family: Arial;
+color: #ffffff;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin: 10px -0px 17px -176px;
+}
+
+address img {
+vertical-align: middle;
+margin: 0 10px;
+}
+
+input[type='text'] {
+
+border-radius: 5px;
+background-color:  #ffffff;
+width: 500px;
+height: 40px;
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin: 5px auto;
+}
+
+textarea {
+
+border-radius: 5px;
+background-color:  #ffffff;
+width: 500px;
+height: 170px;
+font-family: Arial;
+color: #445162;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin: 16px auto;
+
+}
+
+input[type='submit'] {
+
+border-radius: 5px;
+background-color:  #ffffff;
+width: 140px;
+height: 40px;
+font-family: Arial;
+color: #445162;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+margin: 3px 36%;
+}
+
+.copy {
+	background-color: #f5f5f5;
+	border-bottom: 2px dashed #445162;
+}
+
+.copy p{
+margin: 0;
+font-family: Arial;
+color: #445162;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: 0.3px;
+line-height: 24px;
+text-align: center;
+}
+
