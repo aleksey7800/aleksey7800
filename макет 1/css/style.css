@@ -70,7 +70,7 @@ header ul {
 
 header li {
 list-style: none;
-background: url(img/check_icon.png) no-repeat 0 4px; /* Параметры фона */
+background: url(../img/check_icon.png) no-repeat 0 4px; /* Параметры фона */
 padding-left: 45px;
 text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 color: #ffffff;
@@ -140,31 +140,49 @@ article p {
 	margin: 14px 0;
 }
 
-.skrinshot section {
-	width: 43%;
+.skrinshot {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skrinshot figure {
+	max-width: 580px;
+	width: 90%;
     display: inline-block;
-    padding: 3px 0px 3px 45px;
+    margin: 0;
+    padding: 10px 0;
 }
 
 .skrinshot h4 {
     padding: 37px 0 13px 0;
+    width: 100%;
  
  }
 
-.skrinshot section img{
+.skrinshot figure img{
 	float: left;
 	margin-right: 20px;
+	width: 200px;
+    height: 150px;
+}
+
+.Reviews {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .Reviews div{
-
-	width: 43%;
-	display: inline-block;
-	padding: 15px 10px 15px 10px;
+	max-width: 570px;
+    width: 90%;
+    display: inline-block;
 }
 
 .Reviews h4 {
     padding: 49px 0 13px 0;
+    width: 100%;
  
  }
 
@@ -172,7 +190,8 @@ article p {
 	float: left;
 	margin-top: 15px;
 	margin-right: 39px;
-
+	width: 75px;
+    height: 75px;
 }
 
 .Reviews div p {
@@ -180,47 +199,48 @@ article p {
     background-color: #ececec;
     margin-left: 120px;
     padding: 10px 0px 0 14px;
-
    }
 
 .Reviews div p::after {
     content: ''; 
-    position: absolute; /* Абсолютное позиционирование */
-     left: -36px;
+    position: absolute;
+    left: -36px;
     top: 30px;
     border: 16px solid transparent;
     border-right: 20px solid #ececec;
 }
- .Reviews div span {
+
+.Reviews div span {
+	display: block;
 	color: #989898;
 	font-family: "Arial MT";
 	font-size: 14px;
 
-   }
+}
 
-   .Buy {
+.Buy {
    	padding-left: 125px;
-   }
+}
 
-	.Buy h4 {
+.Buy h4 {
     margin: 0;
-    padding: 12px 0 10px 0;
+    padding: 51px 0;
     color: #445161;
     font-family: "Arial MT";
     font-size: 30px;
     text-align: center;
-	}
+}
 
-   .Buy section {
+.Buy section {
 	margin: 0 26px 40px 26px;
     display: inline-block;
     width: 25%;
     background-color: #445162;
     border-radius: 10px;
     padding-bottom: 17px;
-   }
+}
 
-    .Buy section h5 {
+.Buy section h5 {
 	color: #ffffff;
 	font-family: "Arial MT";
 	font-size: 24px;
@@ -228,7 +248,7 @@ article p {
 	line-height: 30px;
 	text-align: center;
 	padding: 10px 0 10px 0;
-   }
+}
 
 .Buy section span {
 	display: inline-block;
@@ -254,21 +274,17 @@ article p {
 	}
 
 ol {
-
 	padding-left: 29px;
 	list-style-position:inside;
 }
 
 .button {
-		margin: 0 auto;
+	margin: 0 13px;
 	width: 260px;
 	height: 40px;
 	border-radius: 5px;
+	border: 1px solid #445161;
 	background-color: #ffffff;
-}
-
-.button p {
-
 	color: #445161;
 	font-family: "Arial - Bold MT";
 	font-size: 18px;
@@ -276,16 +292,33 @@ ol {
 	line-height: 2;
 	text-transform: uppercase;
 	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.button:hover {
+	margin: 0 13px;
+	width: 260px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+	background-color: #445161;
+	color: #ffffff;
+	font-family: "Arial - Bold MT";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 2;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
 }
 
 details {
-
 	position: relative;
-
 }
 
 summary {
-
 	display: inline-block;
 	padding: 0 0 0 90px;
 	position: relative;
@@ -300,7 +333,6 @@ summary {
 	
 
 details[open] {
-
 	padding: 0 0 0 0;
 	margin: 0 0;
 	color: #333333;
@@ -308,42 +340,38 @@ details[open] {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    
-
 }
 
 
 summary::-webkit-details-marker {
-
 	display: none;
-
 }
 
-	details:before {
+details:before {
 	position: absolute;
     content: "";
     width: 32px;
     height: 32px;
     background-color: #445161;
-    background-image: url(img/Layer_2.png);
+   	background-image: url(../img/Layer_2.png);
     background-repeat: no-repeat;
     background-position: center;
     left: 52px;
     top: 23px;
 }	
 
-	details[open]:before {
+details[open]:before {
 	position: absolute;
     content: "";
     width: 32px;
     height: 32px;
     background-color: red;
-    background-image: url(img/Layer_2.png);
+    background-image: url(../img/Layer_2.png);
     background-repeat: no-repeat;
     background-position: center;
     left: 52px;
     top: 23px;
-	}
+}
 
 .details-block {
 	display: inline-block;
@@ -353,106 +381,154 @@ summary::-webkit-details-marker {
 
 footer {
 	background-color: #445162;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 footer h5 {
-font-size: 33px;
-text-align: center;
-color:  #ffffff;
-padding: 60px 0 18px 0;
-
+	width: 100%;
+	font-size: 33px;
+	text-align: center;
+	color:  #ffffff;
+	padding: 60px 0 18px 0;
 }
 
 form {
 	display: inline-block;
-	width: 40%;
-	margin-left: 19%;
+	max-width: 512px;
+	width: 90%;
 	padding-bottom: 30px;
 }
 
 .Contacts {
-	float: right;
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	max-width: 512px;
+	width: 90%;
+}
+
+.skaype {
+	padding-left: 47px;
+    background-image: url(../img/skypeicon.png);
+    background-repeat: no-repeat;
+    background-position: 12px;
+}
+
+.icq {
+	padding-left: 47px;
+    background-image: url(../img/icqicon.png);
+    background-repeat: no-repeat;
+    background-position: 12px;
+}
+
+.email {
+	padding-left: 47px;
+    background-image: url(../img/emailicon.png);
+    background-repeat: no-repeat;
+    background-position: 12px;
+}
+
+.phone {
+	padding-left: 47px;
+    background-image: url(../img/phoneicon.png);
+    background-repeat: no-repeat;
+    background-position: 12px;
+}
+
+
+#soc-seti{
 	margin: 0 80px;
 }
 
-#soc-seti{
-margin: 0 80px;
-}
-
 address {
-font-family: Arial;
-color: #ffffff;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-margin: 10px -0px 17px -176px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 50px;
 }
 
 address img {
-vertical-align: middle;
-margin: 0 10px;
+	vertical-align: middle;
+	margin: 0 10px;
 }
 
 input[type='text'] {
-
-border-radius: 5px;
-background-color:  #ffffff;
-width: 500px;
-height: 40px;
-font-family: Arial;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-margin: 5px auto;
+	border-radius: 5px;
+	background-color:  #ffffff;
+	width: 500px;
+	height: 40px;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	margin: 5px auto;
+	outline: none;
 }
 
 textarea {
-
-border-radius: 5px;
-background-color:  #ffffff;
-width: 500px;
-height: 170px;
-font-family: Arial;
-color: #445162;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-margin: 16px auto;
-
+	border-radius: 5px;
+	background-color:  #ffffff;
+	width: 500px;
+	height: 170px;
+	font-family: Arial;
+	color: #445162;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	margin: 16px auto;
+	outline: none;
 }
 
 input[type='submit'] {
+	border-radius: 5px;
+	background-color:  #ffffff;
+	width: 140px;
+	height: 40px;
+	font-family: Arial;
+	color: #445162;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 3px 36%;
+	outline: none;
+}
 
-border-radius: 5px;
-background-color:  #ffffff;
-width: 140px;
-height: 40px;
-font-family: Arial;
-color: #445162;
-font-weight: 700;
-line-height: 24px;
-text-align: center;
-text-transform: uppercase;
-margin: 3px 36%;
+input[type='submit']:hover {
+	border-radius: 5px;
+	background-color: red;
+	width: 140px;
+	height: 40px;
+	font-family: Arial;
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 3px 36%;
+	outline: none;
 }
 
 .copy {
+	width: 100%;
 	background-color: #f5f5f5;
 	border-bottom: 2px dashed #445162;
 }
 
 .copy p{
-margin: 0;
-font-family: Arial;
-color: #445162;
-font-size: 12px;
-font-weight: 400;
-letter-spacing: 0.3px;
-line-height: 24px;
-text-align: center;
+	margin: 0;
+	font-family: Arial;
+	color: #445162;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	line-height: 24px;
+	text-align: center;
 }
 
