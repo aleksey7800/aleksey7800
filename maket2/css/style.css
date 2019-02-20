@@ -30,6 +30,10 @@ h2 {
 }
 
 .logo {
+
+}
+
+.logo a {
 	font-family: Arial;
 	font-weight: normal;
 	font-size: 34px;
@@ -37,6 +41,24 @@ h2 {
 	line-height: 40.8px;
 	text-align: right;
 	color: #fff;
+	text-decoration: none;
+}
+
+.logo-img {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	background-image: url(../img/logos.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.logo:hover .logo-img{
+	background-image: url(../img/logos-hover.png);
+}
+
+.logo:hover a{
+	color: #998675;
 }
 
 .site-menu {
@@ -66,6 +88,10 @@ h2 {
 	line-height: 16.8px;
 	text-align: left;
 	color: #fff;
+}
+
+.site-menu li a:hover{
+	color: #C7B299;
 }
 
 .search img {
@@ -115,13 +141,20 @@ color: #fff;
 	font-family: Arial;
 	font-weight: normal;
 	font-size: 14px;
-	line-height: 23px;
+	line-height: 57px;
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
-	line-height: 4;
 	text-decoration: none;
 	border-radius: 3px;
+	border: 2px solid #998675;
+}
+
+.butoon:hover {
+	background-color: rgba(255, 255, 255, 0);
+	color: red;
+	font-weight: bold;
+
 }
 
 .spisok-yslugi {
@@ -140,6 +173,88 @@ color: #fff;
 	text-align: center;
 	max-width: 270px;
 	width: 90%;
+	margin: 0;
+}
+
+.ysluga-img-line {
+	width: 70px;
+	height: 3px;
+	background-image: url(../img/line.png);
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.yslyga:hover .ysluga-img-line {
+	background-image: url(../img/line-hover.png);
+}
+
+.ysluga-img {
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon.png);
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.yslyga:hover .ysluga-img {
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon-hover.png);
+	margin: 0 auto;
+}
+
+.ysluga-img-2 {
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon2.png);
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.yslyga:hover .ysluga-img-2 {
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon2-hover.png);
+	margin: 0 auto;
+}
+
+.ysluga-img-3 {
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon3.png);
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.yslyga:hover .ysluga-img-3 {
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon3-hover.png);
+	margin: 0 auto;
+}
+
+.ysluga-img-4 {
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon4.png);
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.yslyga:hover .ysluga-img-4 {
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon4-hover.png);
+	margin: 0 auto;
+}
+
+.yslyga:hover h3 {
+	color: #C7B299;
 }
 
 .yslyga h3 {
@@ -168,6 +283,10 @@ color: #fff;
 	margin: 0 auto;
 	text-align: center;
 	position: relative;
+	background: 
+	url(../img/browser-center.jpg) bottom center no-repeat,
+	url(../img/browser-left.jpg) bottom left no-repeat,
+	url(../img/browser-right.jpg) bottom right no-repeat;
 }
 
 .vashi-idei-content h2 {
@@ -216,7 +335,7 @@ color: #fff;
 .zakaz-yslugi {
 	max-width: 1920px;
 	width: 100%;
-	background: linear-gradient(to top, #211B19, #4E3427);
+	background: linear-gradient(to right, #211B19, #4E3427);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -260,15 +379,19 @@ color: #fff;
 	height: 50px;
 	background: linear-gradient(to top, #211B19, #4E3427);
 	font-family: Arial;
-	font-weight: normal;
 	font-size: 14px;
-	line-height: 23px;
+	line-height: 48px;
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	line-height: 4;
 	border-radius: 5px;
+}
+
+.button-2:hover {
+	color: #211B19;
+	font-weight: bold;
+	background: white;
 }
 
 .last-progekt {
@@ -330,6 +453,12 @@ color: #fff;
 	padding: 8px 15px;
 }
 
+.last-progert-menu a:hover {
+	color: white;
+	background: #998675;
+	border: 1px solid #ebebeb;
+}
+
 .primeri-rabor {
 	display: flex;
 	flex-wrap: wrap;
@@ -353,6 +482,10 @@ color: #fff;
 	color: #c7b299;
 	margin: 5px auto;
 }
+.rabota:hover h3 {
+
+	color: white;
+}
 
 .rabota p {
 	font-family: Arial;
@@ -362,13 +495,27 @@ color: #fff;
 	text-align: left;
 	color: #d1d1d1;
 	height: 0;
-	padding: 10px 0;
+	padding: 20px 0;
 }
+
+.rabota:hover p {
+	color: #C7B299;
+}
+
+
 
 .rabota-opisanie {
 	background-color: #FBFAF8;
 	padding: 20px 20px;
 	position: relative;
+}
+
+.rabota:hover .rabota-opisanie {
+	background-color: #362F2D;
+}
+
+.rabota:hover .rabota-opisanie:after {
+    border-bottom: 20px solid #362F2D; /* Добавляем треугольник */
 }
 
 .rabota-opisanie:after {
@@ -544,6 +691,11 @@ color: #fff;
 .recent-posts-block {
 	max-width: 370px;
 	width: 100%;
+	padding-bottom: 20px;
+}
+
+.recent-posts-block:hover {
+	background-color: #362F2D;
 }
 
 .recent-posts-block h3{
@@ -556,7 +708,12 @@ color: #fff;
 	color: #555;
 }
 
+.recent-posts-block:hover h3{
+	color: #C7B299;
+}
+
 .recent-posts-block p {
+	padding-left: 29px;
 	width: 100%;
 	font-family: Arial;
 	font-size: 14px;
@@ -565,7 +722,12 @@ color: #fff;
 	color: #8c8c8c;
 }
 
+.recent-posts-block:hover p {
+	color: #FFFFFF;
+}
+
 .recent-posts-block a {
+	padding: 20px 29px;
 	font-family: Arial;
 	font-weight: normal;
 	font-size: 14px;
@@ -576,11 +738,15 @@ color: #fff;
 	position: relative;
 }
 
+.recent-posts-block a:hover {
+	color: #C7B299;
+}
+
 .recent-posts-block a:after {
 	content: '';
     position: absolute;
     right: -40px;
-    top: 1px;
+    bottom: 21px;
     border: 7px solid transparent;
     border-left: 10px solid #C7B299;
 }
@@ -658,6 +824,11 @@ text-decoration: none;
 	color: #555;
 }
 
+.footer-info-block p:hover {
+
+	color: #C7B299;
+}
+
 .footer-info-block span {
 width: 269.66px;
 height: 36px;
@@ -670,7 +841,7 @@ color: #363636;
 
 }
 
-data {
+.footer-info-block span {
 	font-family: Arial;
 	font-weight: normal;
 	font-size: 12px;
