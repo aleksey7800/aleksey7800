@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css" >
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" >
+	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	
 	
 </head>
 <body>
@@ -27,13 +28,26 @@
 			</div>
 			<div class="search">
 				<img src="img/Search.png" alt="">
-				<img src="img/Cart.png" alt="">
+				<form action="">
+					<input class="carte" type="search">
+				</form>
 			</div>
 		</nav>
+
+		<div class="galereya">
+		<a class="galereya-selekt-left" href="#"><div class="selekt-left-img"></div></a>
 			<h2>Unique and Modern Design</h2>
 			<h1>Portfolio PSD Template</h1>
 			<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+		<a class="galereya-selekt-right" href="#"><div class="selekt-right-img"></div></a>
 			<a href="#" class="butoon" >Get started</a>
+		</div>
+			<ul class="galereya-selekt">
+				<li><a href=""></a><div class="galereya-selekt-buton"></div></li>
+				<li><a href=""><div class="galereya-selekt-buton"></div></a></li>
+				<li><a href=""><div class="galereya-selekt-buton"></div></a></li>
+				<li><a href=""><div class="galereya-selekt-buton"></div></a></li>
+			</ul>
 	</header>
 	<section class="spisok-yslugi">
 		<figure class="yslyga">
@@ -86,42 +100,92 @@
 		</div>
 		<div class="primeri-rabor">
 			<div class="rabota">
-				<img src="img/Photo-rabota.jpg" alt="">
+				<div class="rabota-img">
+					<a href="#"><div class="rabota-img-1"></div></a>
+					<img src="img/Photo-rabota.jpg" alt="">
+					<div id="foto-1" class="popup">
+					<img src="img/Photo-rabota.jpg" alt="">
+						<a href="#close"><div class="close"></div></a>
+					</div>
+					<a href="#foto-1"><div class="rabota-img-2"></div></a>
+				</div>
 				<div class="rabota-opisanie">
 					<h3>Claritas Etiam Processus</h3>
 					<p>Photography, Nature</p>
 				</div>
 			</div>
 			<div class="rabota">
-				<img src="img/Photo-rabota1.jpg" alt="">
+
+				<div class="rabota-img">
+					<a href="#"><div class="rabota-img-1"></div></a>
+					<img src="img/Photo-rabota1.jpg" alt="">
+					<div id="foto-2" class="popup">
+					<img src="img/Photo-rabota1.jpg" alt="">
+						<a href="#close"><div class="close"></div></a>
+					</div>
+					<a href="#foto-2"><div class="rabota-img-2"></div></a>
+				</div>
 				<div class="rabota-opisanie">
 					<h3>Quam Nutamus Farum</h3>
 					<p>Graphic Design, Mock-Up</p>
 				</div>
 			</div>
 			<div class="rabota">
-				<img src="img/Photo-rabota2.jpg" alt="">
+
+				<div class="rabota-img">
+					<a href="#"><div class="rabota-img-1"></div></a>
+						<img src="img/Photo-rabota2.jpg" alt="">
+						<div id="foto-3" class="popup">
+						<img src="img/Photo-rabota2.jpg" alt="">
+						<a href="#close"><div class="close"></div></a>
+					</div>
+					<a href="#foto-3"><div class="rabota-img-2"></div></a>
+				</div>
 				<div class="rabota-opisanie">
 					<h3>Usus Legentis Videntur</h3>
 					<p>Photography, Holiday</p>
 				</div>
 			</div>
 			<div class="rabota">
-				<img src="img/Photo-rabota3.jpg" alt="">
+				<div class="rabota-img">
+					<a href="#"><div class="rabota-img-1"></div></a>
+					<img src="img/Photo-rabota3.jpg" alt="">
+					<div id="foto-4" class="popup">
+						<img src="img/Photo-rabota3.jpg" alt="">
+						<a href="#close"><div class="close"></div></a>
+					</div>
+					<a href="#foto-4"><div class="rabota-img-2"></div></a>
+				</div>
 				<div class="rabota-opisanie">
 					<h3>Claritas Etiam Processus</h3>
 					<p>Photography, Nature</p>
 				</div>
 			</div>
 			<div class="rabota">
-				<img src="img/Photo-rabota4.jpg" alt="">
+				<div class="rabota-img">
+					<a href="#"><div class="rabota-img-1"></div></a>
+					<img src="img/Photo-rabota4.jpg" alt="">
+					<div id="foto-5" class="popup">
+					<img src="img/Photo-rabota4.jpg" alt="">
+						<a href="#close"><div class="close"></div></a>
+					</div>
+					<a href="#foto-5"><div class="rabota-img-2"></div></a>
+				</div>
 				<div class="rabota-opisanie">
 					<h3>Quam Nutamus Farum</h3>
 					<p>Graphic Design, Mock-Up</p>
 				</div>
 			</div>
 			<div class="rabota">
-				<img src="img/Photo-rabota5.jpg" alt="">
+				<div class="rabota-img">
+					<a href="#"><div class="rabota-img-1"></div></a>
+					<img src="img/Photo-rabota5.jpg" alt="">
+					<div id="foto-6" class="popup">
+					<img src="img/Photo-rabota5.jpg" alt="">
+						<a href="#close"><div class="close"></div></a>
+					</div>
+					<a href="#foto-6"><div class="rabota-img-2"></div></a>
+				</div>
 				<div class="rabota-opisanie">
 					<h3>Usus Legentis Videntur</h3>
 					<p>Photography, Holiday</p>
@@ -149,31 +213,31 @@
 		<div class="vcifrax">
 			<img src="img/icon5.png" alt="">
 			<span>3587</span>
-			<p>SATISFIED CLIENTS</p>
+			<p>satisfied clients</p>
 			<img src="img/lines2.png" alt="">
 		</div>
 		<div class="vcifrax">
 			<img src="img/icon6.png" alt="">
 			<span>207</span>
-			<p>CUPS OF COFFEE</p>
+			<p>cups of coffee</p>
 			<img src="img/lines2.png" alt="">
 		</div>
 		<div class="vcifrax">
 			<img src="img/icon7.png" alt="">
 			<span>2500</span>
-			<p>BLOG POSTS</p>
+			<p>blog post</p>
 			<img src="img/lines2.png" alt="">
 		</div>
 		<div class="vcifrax">
 			<img src="img/icon8.png" alt="">
 			<span>873</span>
-			<p>LIKES</p>
+			<p>likes</p>
 			<img src="img/lines2.png" alt="">
 		</div>
 		<div class="vcifrax">
 			<img src="img/icon9.png" alt="">
 			<span>900</span>
-			<p>WE LAUNCHED</p>
+			<p>we launched</p>
 			<img src="img/lines2.png" alt="">
 		</div>
 	</section>
