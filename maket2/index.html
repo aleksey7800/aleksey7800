@@ -5,6 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	
 </head>
@@ -14,6 +15,11 @@
 			<div class="logo">
 				<a href="#"><div class="logo-img"></div><span>Waxom</span></a>
 			</div>
+			   <label for="buter-menu">
+			   		<i class="buter-menu-1">menu</i>
+			   		<i class="buter-menu-2">menu</i>
+			   </label>
+    				<input type="checkbox" id="buter-menu">
 			<div class="site-menu">
 				<ul>
 					<li><a href="">Home</a></li>
@@ -26,28 +32,67 @@
 					<li><a href="">Contact</a></li>
 				</ul>
 			</div>
-			<div class="search">
-				<img src="img/Search.png" alt="">
+				<img src="img/Cart.png" alt="">
 				<form action="">
-					<input class="carte" type="search">
+					<input class="search" type="search">
 				</form>
-			</div>
 		</nav>
+<!-- Галерея---------- -->
+	<div class="galereya">
+		<div id="galereyacontent" class="galereya-content">
+				<input checked="" type="radio" name="galereyacontent" id="galereya1">
+				<input type="radio" name="galereyacontent" id="galereya2">
+				<input type="radio" name="galereyacontent" id="galereya3">
+				<input type="radio" name="galereyacontent" id="galereya4">
+			<div id="galereyacontenthiden">
+				<div class="galereya-content-hiden">
+					<div class="galereyacontentblock">
+						<div class="slide slaid-1">
+							<h2>Unique and Modern Design</h2>
+							<h1>Portfolio PSD Template</h1>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+						</div>
+						<div class="slide slaid-2">
+							<h2>Unique and Modern Design 1</h2>
+							<h1>Portfolio PSD Template</h1>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+						</div>
+						<div class="slide slaid-3">
+							<h2>Unique and Modern Design 2</h2>
+							<h1>Portfolio PSD Template</h1>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+						</div>
+						<div class="slide slaid-4">
+							<h2>Unique and Modern Design 3</h2>
+							<h1>Portfolio PSD Template</h1>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+				<a href="#" class="butoon">Get started</a>
+			
+				<div id="controls">
+					<label for="galereya1"></label>
+					<label for="galereya2"></label>
+					<label for="galereya3"></label>
+					<label for="galereya4"></label>
+				</div>
 
-		<div class="galereya">
-		<a class="galereya-selekt-left" href="#"><div class="selekt-left-img"></div></a>
-			<h2>Unique and Modern Design</h2>
-			<h1>Portfolio PSD Template</h1>
-			<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
-		<a class="galereya-selekt-right" href="#"><div class="selekt-right-img"></div></a>
-			<a href="#" class="butoon" >Get started</a>
+
+				<div id="bullets" class="galereya-selekt">
+					<label for="galereya1"></label>
+					<label for="galereya2"></label>
+					<label for="galereya3"></label>
+					<label for="galereya4"></label>
+				</div>
+
 		</div>
-			<ul class="galereya-selekt">
-				<li><a href=""></a><div class="galereya-selekt-buton"></div></li>
-				<li><a href=""><div class="galereya-selekt-buton"></div></a></li>
-				<li><a href=""><div class="galereya-selekt-buton"></div></a></li>
-				<li><a href=""><div class="galereya-selekt-buton"></div></a></li>
-			</ul>
+
+	</div>
+<!-- Галерея-------- -->
+
+
 	</header>
 	<section class="spisok-yslugi">
 		<figure class="yslyga">
@@ -99,92 +144,73 @@
 			<a href="#">Photography</a>
 		</div>
 		<div class="primeri-rabor">
-			<div class="rabota">
-				<div class="rabota-img">
-					<a href="#"><div class="rabota-img-1"></div></a>
+			<div id="rabota" class="rabota">
+				<label class="rabota-img-2" for="rabota-chek"></label>
+    			<input type="checkbox" id="rabota-chek"></input>
+    			<a href="#"><div class="rabota-img-1"></div></a>
+				<div id="rabota-img" class="rabota-img">
 					<img src="img/Photo-rabota.jpg" alt="">
-					<div id="foto-1" class="popup">
-					<img src="img/Photo-rabota.jpg" alt="">
-						<a href="#close"><div class="close"></div></a>
-					</div>
-					<a href="#foto-1"><div class="rabota-img-2"></div></a>
 				</div>
+
 				<div class="rabota-opisanie">
 					<h3>Claritas Etiam Processus</h3>
 					<p>Photography, Nature</p>
 				</div>
 			</div>
-			<div class="rabota">
-
+			<div id="rabota1" class="rabota">
+				<label class="rabota-img-2" for="rabota-chek1"></label>
+    			<input type="checkbox" id="rabota-chek1"></input>
+    			<a href="#"><div class="rabota-img-1"></div></a>
 				<div class="rabota-img">
-					<a href="#"><div class="rabota-img-1"></div></a>
 					<img src="img/Photo-rabota1.jpg" alt="">
-					<div id="foto-2" class="popup">
-					<img src="img/Photo-rabota1.jpg" alt="">
-						<a href="#close"><div class="close"></div></a>
-					</div>
-					<a href="#foto-2"><div class="rabota-img-2"></div></a>
 				</div>
 				<div class="rabota-opisanie">
 					<h3>Quam Nutamus Farum</h3>
 					<p>Graphic Design, Mock-Up</p>
 				</div>
 			</div>
-			<div class="rabota">
-
+			<div id="rabota2" class="rabota">
+				<label class="rabota-img-2" for="rabota-chek2"></label>
+    			<input type="checkbox" id="rabota-chek2"></input>
+    			<a href="#"><div class="rabota-img-1"></div></a>
 				<div class="rabota-img">
-					<a href="#"><div class="rabota-img-1"></div></a>
-						<img src="img/Photo-rabota2.jpg" alt="">
-						<div id="foto-3" class="popup">
-						<img src="img/Photo-rabota2.jpg" alt="">
-						<a href="#close"><div class="close"></div></a>
-					</div>
-					<a href="#foto-3"><div class="rabota-img-2"></div></a>
+					<img src="img/Photo-rabota2.jpg" alt="">
 				</div>
 				<div class="rabota-opisanie">
 					<h3>Usus Legentis Videntur</h3>
 					<p>Photography, Holiday</p>
 				</div>
 			</div>
-			<div class="rabota">
+			<div id="rabota3" class="rabota">
+				<label class="rabota-img-2" for="rabota-chek3"></label>
+    			<input type="checkbox" id="rabota-chek3"></input>
+    			<a href="#"><div class="rabota-img-1"></div></a>
 				<div class="rabota-img">
-					<a href="#"><div class="rabota-img-1"></div></a>
 					<img src="img/Photo-rabota3.jpg" alt="">
-					<div id="foto-4" class="popup">
-						<img src="img/Photo-rabota3.jpg" alt="">
-						<a href="#close"><div class="close"></div></a>
-					</div>
-					<a href="#foto-4"><div class="rabota-img-2"></div></a>
 				</div>
 				<div class="rabota-opisanie">
 					<h3>Claritas Etiam Processus</h3>
 					<p>Photography, Nature</p>
 				</div>
 			</div>
-			<div class="rabota">
+			<div id="rabota4" class="rabota">
+				<label class="rabota-img-2" for="rabota-chek4"></label>
+    			<input type="checkbox" id="rabota-chek4"></input>
+    			<a href="#"><div class="rabota-img-1"></div></a>
 				<div class="rabota-img">
-					<a href="#"><div class="rabota-img-1"></div></a>
 					<img src="img/Photo-rabota4.jpg" alt="">
-					<div id="foto-5" class="popup">
-					<img src="img/Photo-rabota4.jpg" alt="">
-						<a href="#close"><div class="close"></div></a>
-					</div>
-					<a href="#foto-5"><div class="rabota-img-2"></div></a>
 				</div>
 				<div class="rabota-opisanie">
 					<h3>Quam Nutamus Farum</h3>
 					<p>Graphic Design, Mock-Up</p>
 				</div>
 			</div>
-			<div class="rabota">
-				<div class="rabota-img">
-					<a href="#"><div class="rabota-img-1"></div></a>
+			<div id="rabota5" class="rabota">
+				<label class="rabota-img-2" for="rabota-chek5"></label>
+    			<input type="checkbox" id="rabota-chek5"></input>
+    			<a href="#"><div class="rabota-img-1"></div></a>
+				<div class="rabota-img">	
 					<img src="img/Photo-rabota5.jpg" alt="">
-					<div id="foto-6" class="popup">
-					<img src="img/Photo-rabota5.jpg" alt="">
-						<a href="#close"><div class="close"></div></a>
-					</div>
-					<a href="#foto-6"><div class="rabota-img-2"></div></a>
 				</div>
 				<div class="rabota-opisanie">
 					<h3>Usus Legentis Videntur</h3>
@@ -269,10 +295,10 @@
 	<footer>
 		
 		<div class="nashi-partneri">
-			<img src="img/logo-01.png" alt="">
-			<img src="img/logo-02.png" alt="">
-			<img src="img/logo-03.png" alt="">
-			<img src="img/logo-04.png" alt="">
+			<a href=""><img src="img/logo-01.png" alt=""></a>
+			<a href=""><img src="img/logo-02.png" alt=""></a>
+			<a href=""><img src="img/logo-03.png" alt=""></a>
+			<a href=""><img src="img/logo-04.png" alt=""></a>
 		</div>
 
 		<div class="footer-info">
